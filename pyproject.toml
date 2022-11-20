@@ -1,11 +1,19 @@
-[tool]
 [tool.poetry]
-authors = ["Your Name <you@example.com>"]
 name = "root"
 version = "0.0.0"
 description = ""
+authors = ["Aadit Kamat <plunges_abiotic.0q@icloud.com>"]
+license = "MIT"
 
 [tool.poetry.dependencies]
-pandas = "*"
-python = "^3.7"
-scipy = "*"
+python = "^3.8"
+matplotlib = "^3.6.2"
+scipy = "^1.9.3"
+pandas = "^1.5.1"
+numpy = "^1.23.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
